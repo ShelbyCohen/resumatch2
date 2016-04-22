@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ApplicantLoginViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *applicantLoginViewButton;
 
 @end

@@ -397,8 +397,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tA3-Va-Axl">
                                 <rect key="frame" x="226" y="244" width="148" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="jcJ-xb-nu9"/>
-                                    <constraint firstAttribute="width" constant="148" id="sp1-lc-cTu"/>
+                                    <constraint firstAttribute="width" constant="148" id="ZCB-FZ-vuc"/>
+                                    <constraint firstAttribute="height" constant="70" id="og2-Vp-C4P"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Login">
@@ -418,20 +418,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tA3-Va-Axl" firstAttribute="centerX" secondItem="j0S-Ks-myR" secondAttribute="centerX" id="HBi-W2-fhX"/>
-                            <constraint firstItem="tA3-Va-Axl" firstAttribute="centerX" secondItem="iVQ-Bo-APd" secondAttribute="centerX" id="lVL-0h-wKy"/>
-                            <constraint firstItem="M6g-8W-x4b" firstAttribute="top" secondItem="tA3-Va-Axl" secondAttribute="bottom" constant="286" id="q6F-SK-EuY"/>
+                            <constraint firstItem="M6g-8W-x4b" firstAttribute="top" secondItem="tA3-Va-Axl" secondAttribute="bottom" constant="286" id="2gS-Q2-6aw"/>
+                            <constraint firstItem="tA3-Va-Axl" firstAttribute="centerX" secondItem="j0S-Ks-myR" secondAttribute="centerX" id="9Gn-Fz-bya"/>
+                            <constraint firstItem="tA3-Va-Axl" firstAttribute="centerX" secondItem="iVQ-Bo-APd" secondAttribute="centerX" id="FGX-8c-R5b"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="applicantLoginViewButton" destination="tA3-Va-Axl" id="WiL-0R-X1m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izQ-KF-4hh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="976" y="-571"/>
         </scene>
-        <!--Item 2-->
+        <!--Matches-->
         <scene sceneID="CQt-6b-f6n">
             <objects>
-                <viewController id="1nP-Bx-dbe" sceneMemberID="viewController">
+                <viewController id="1nP-Bx-dbe" userLabel="Matches" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d1S-Hf-Bge"/>
                         <viewControllerLayoutGuide type="bottom" id="yR8-hR-7XX"/>
@@ -441,7 +444,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2YL-2a-gaS"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="2YL-2a-gaS" userLabel="Matches"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7V-GE-LtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -460,7 +463,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="h8K-BB-Ntw"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="h8K-BB-Ntw" userLabel="Resume"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDP-mT-IoF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -526,7 +529,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="8nR-TD-VHf"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="8nR-TD-VHf" userLabel="Matches"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nbf-NA-UCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -611,7 +614,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="VEV-r7-ksU"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="VEV-r7-ksU" userLabel="Resume"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9e0-Jz-wye" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
