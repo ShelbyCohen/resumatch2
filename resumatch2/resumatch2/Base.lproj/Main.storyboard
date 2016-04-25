@@ -450,10 +450,10 @@
             </objects>
             <point key="canvasLocation" x="1655" y="-1238"/>
         </scene>
-        <!--Item 2-->
+        <!--Resume-->
         <scene sceneID="aU1-5C-gBw">
             <objects>
-                <viewController id="GbZ-Pw-wSo" sceneMemberID="viewController">
+                <viewController id="GbZ-Pw-wSo" userLabel="Resume" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AcE-kn-UYy"/>
                         <viewControllerLayoutGuide type="bottom" id="QYS-oY-Y4L"/>
