@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [_loginRecruiterViewButton setTitle:@"Login" forState:UIControlStateNormal];
+    _loginRecruiterViewButton.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
+    _loginRecruiterViewButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    _loginRecruiterViewButton.layer.cornerRadius = 10;
+    _loginRecruiterViewButton.layer.masksToBounds = YES;
+    _loginRecruiterViewButton.layer.borderWidth = 3.0f;
 }
 
 - (void)didReceiveMemoryWarning {
