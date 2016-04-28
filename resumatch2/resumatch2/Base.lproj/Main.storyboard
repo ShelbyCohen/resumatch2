@@ -355,14 +355,17 @@
                                     <segue destination="HOv-rR-p21" kind="show" id="8c9-F9-Vk5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter login view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm1-qH-n1E">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Recruiter login view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm1-qH-n1E">
                                 <rect key="frame" x="210" y="139" width="150" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4D-db-XXg">
-                                <rect key="frame" x="318" y="365" width="38" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4D-db-XXg">
+                                <rect key="frame" x="217" y="247" width="166" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="YcN-xB-t6i"/>
+                                </constraints>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <segue destination="LXS-3l-Pry" kind="show" id="cuO-2p-pcu"/>
@@ -370,6 +373,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O4D-db-XXg" firstAttribute="top" secondItem="jm1-qH-n1E" secondAttribute="bottom" constant="87" id="11c-K3-HBO"/>
+                            <constraint firstItem="O4D-db-XXg" firstAttribute="centerX" secondItem="t7X-j8-e1V" secondAttribute="centerX" id="3bn-9b-m92"/>
+                            <constraint firstItem="DZp-tk-7vY" firstAttribute="top" secondItem="O4D-db-XXg" secondAttribute="bottom" constant="247" id="gYY-TU-ou7"/>
+                            <constraint firstItem="O4D-db-XXg" firstAttribute="centerY" secondItem="t7X-j8-e1V" secondAttribute="centerY" id="r4B-Ok-OSp"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="loginRecruiterViewButton" destination="O4D-db-XXg" id="QPp-fR-TLV"/>

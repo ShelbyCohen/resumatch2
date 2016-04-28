@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     [_loginRecruiterViewButton setTitle:@"Login" forState:UIControlStateNormal];
     _loginRecruiterViewButton.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
