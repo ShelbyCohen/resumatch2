@@ -26,7 +26,17 @@
     // Do any additional setup after loading the view.
 }
 
-//view will load
+- (void)viewWillLoad {
+    
+    [_applicantLoginViewButton setTitle:@"LoginViewWIll" forState:UIControlStateNormal];
+    _applicantLoginViewButton.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
+    _applicantLoginViewButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    _applicantLoginViewButton.layer.cornerRadius = 10;
+    _applicantLoginViewButton.layer.masksToBounds = YES;
+    _applicantLoginViewButton.layer.borderWidth = 3.0f;
+    // Do any additional setup after loading the view.
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
