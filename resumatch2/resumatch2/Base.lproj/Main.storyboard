@@ -454,9 +454,17 @@
                     <view key="view" contentMode="scaleToFill" id="gqB-wk-y1I">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter Matches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJB-DY-7lh">
+                                <rect key="frame" x="181" y="213" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2YL-2a-gaS" userLabel="Matches"/>
+                    <tabBarItem key="tabBarItem" title="Mathces" image="star1" id="2YL-2a-gaS" userLabel="Matches"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7V-GE-LtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -473,9 +481,17 @@
                     <view key="view" contentMode="scaleToFill" id="fp9-2L-3RI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Applicant Current Resume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S27-Fg-d6T">
+                                <rect key="frame" x="111" y="245" width="201" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="h8K-BB-Ntw" userLabel="Resume"/>
+                    <tabBarItem key="tabBarItem" title="Current Resume" image="paper" id="h8K-BB-Ntw" userLabel="Resume"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDP-mT-IoF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -492,9 +508,17 @@
                     <view key="view" contentMode="scaleToFill" id="v2M-Nr-uQy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Applicant Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHO-g4-YyU">
+                                <rect key="frame" x="201" y="232" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="oBl-TF-2Ah"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="oBl-TF-2Ah"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95x-iY-dk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -513,7 +537,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KQI-yw-uR0" id="oes-NP-ydX">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -528,7 +552,7 @@
             </objects>
             <point key="canvasLocation" x="3193" y="-474"/>
         </scene>
-        <!--Item-->
+        <!--Matches-->
         <scene sceneID="Jqj-AC-Lbx">
             <objects>
                 <viewController id="VmE-oV-4I1" sceneMemberID="viewController">
@@ -539,9 +563,17 @@
                     <view key="view" contentMode="scaleToFill" id="pJV-RK-qAJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Applicant Matches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRd-rV-TEK">
+                                <rect key="frame" x="178" y="233" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="8nR-TD-VHf" userLabel="Matches"/>
+                    <tabBarItem key="tabBarItem" title="Matches" image="star1" id="8nR-TD-VHf" userLabel="Matches"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nbf-NA-UCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -577,9 +609,17 @@
                     <view key="view" contentMode="scaleToFill" id="rTC-aC-TMj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGA-el-nSR">
+                                <rect key="frame" x="265" y="220" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="Brd-mc-GPO"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="Brd-mc-GPO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TbR-ov-i8Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -598,7 +638,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q97-ao-E9q" id="8Ro-xk-YjR">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -613,7 +653,7 @@
             </objects>
             <point key="canvasLocation" x="3205" y="-2162"/>
         </scene>
-        <!--Item-->
+        <!--Resumes-->
         <scene sceneID="DwL-h7-eDU">
             <objects>
                 <viewController id="sBS-QJ-fFO" sceneMemberID="viewController">
@@ -624,9 +664,17 @@
                     <view key="view" contentMode="scaleToFill" id="yLW-2f-E3E">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter resumes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRx-B9-LaS">
+                                <rect key="frame" x="141" y="195" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="VEV-r7-ksU" userLabel="Resume"/>
+                    <tabBarItem key="tabBarItem" title="Resumes" image="paper" id="VEV-r7-ksU" userLabel="Resume"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9e0-Jz-wye" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -652,6 +700,11 @@
             <point key="canvasLocation" x="1655" y="-1951"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gear" width="30" height="30"/>
+        <image name="paper" width="30" height="30"/>
+        <image name="star1" width="30" height="30"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8c9-F9-Vk5"/>
         <segue reference="0MU-1k-CI9"/>
