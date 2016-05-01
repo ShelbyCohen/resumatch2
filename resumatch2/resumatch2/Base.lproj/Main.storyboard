@@ -310,6 +310,9 @@
                                     <constraint firstAttribute="width" constant="94" id="dJY-bU-t3R"/>
                                 </constraints>
                                 <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Yio-te-mlX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -334,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rac-7r-g3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="252" y="-729"/>
+            <point key="canvasLocation" x="-104" y="-889"/>
         </scene>
         <!--Recruiter Login View Controller-->
         <scene sceneID="qxo-cB-rkH">
@@ -515,6 +518,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKi-lC-jq1">
+                                <rect key="frame" x="58" y="33" width="55" height="30"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="j22-rJ-RQj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -617,6 +627,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJV-NC-1Ya">
+                                <rect key="frame" x="48" y="28" width="55" height="30"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="G3s-cw-JKa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -709,7 +726,8 @@
         <image name="star1" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Qoj-Zc-sXx"/>
         <segue reference="0MU-1k-CI9"/>
+        <segue reference="j22-rJ-RQj"/>
+        <segue reference="vfA-uF-PBu"/>
     </inferredMetricsTieBreakers>
 </document>
