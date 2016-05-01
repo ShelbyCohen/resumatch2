@@ -13,9 +13,15 @@
 @end
 
 @implementation ApplicantResumeTableViewController
+@synthesize cities;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //self.cities= [[NSArray alloc] initWithObjects: @"Red", @"Yellow", @"Green", @"Blue", @"Purple", nil];
+    
+    self.cities= [[NSArray alloc] initWithObjects: @"NYC", @"LA", @"Chicago",@"Miami", @"Austin", @"Las Vegas", nil];
+    
+    self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -32,13 +38,25 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
+//#warning Incomplete implementation, return the number of sections
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 5;
+//#warning Incomplete implementation, return the number of rows
+    return [self.cities count];
+}
+
+
+
+-(UITableViewCell *)tableView:(UITableView *)tableView
+        cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"likeAppCell" forIndexPath:indexPath];
+    
+    cell.textLabel.text=[self.cities objectAtIndex:indexPath.row];
+    
+    return cell;
 }
 
 /*

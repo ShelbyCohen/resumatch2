@@ -13,9 +13,16 @@
 @end
 
 @implementation RecruiterResumeTableViewController
+@synthesize colors;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    self.colors= [[NSArray alloc] initWithObjects: @"Red", @"Yellow", @"Green", @"Blue", @"Purple", nil];
+    
+    self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -32,14 +39,27 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+//#warning Incomplete implementation, return the number of sections
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+//#warning Incomplete implementation, return the number of rows
+    return [self.colors count];
 }
+
+
+
+-(UITableViewCell *)tableView:(UITableView *)tableView
+        cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"likeCell" forIndexPath:indexPath];
+    
+    cell.textLabel.text=[self.colors objectAtIndex:indexPath.row];
+    
+    return cell;
+}
+
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

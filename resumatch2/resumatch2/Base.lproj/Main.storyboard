@@ -524,7 +524,7 @@
             </objects>
             <point key="canvasLocation" x="2319" y="-571"/>
         </scene>
-        <!--Applicant Resume Table View Controller-->
+        <!--Matches-->
         <scene sceneID="aEd-gG-vca">
             <objects>
                 <tableViewController id="w8W-v6-Hgk" customClass="ApplicantResumeTableViewController" sceneMemberID="viewController">
@@ -533,7 +533,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KQI-yw-uR0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="likeAppCell" id="KQI-yw-uR0">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KQI-yw-uR0" id="oes-NP-ydX">
@@ -547,10 +547,11 @@
                             <outlet property="delegate" destination="w8W-v6-Hgk" id="b1J-ub-rJF"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Matches" image="star1" id="7W3-vR-Sc7"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORi-iM-LiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3193" y="-474"/>
+            <point key="canvasLocation" x="3009" y="268"/>
         </scene>
         <!--Matches-->
         <scene sceneID="Jqj-AC-Lbx">
@@ -591,7 +592,7 @@
                     <connections>
                         <segue destination="NV1-qQ-cPT" kind="relationship" relationship="viewControllers" id="6y7-Df-xSQ"/>
                         <segue destination="GbZ-Pw-wSo" kind="relationship" relationship="viewControllers" id="iNm-Ob-lQU"/>
-                        <segue destination="VmE-oV-4I1" kind="relationship" relationship="viewControllers" id="ul4-eu-0Ox"/>
+                        <segue destination="w8W-v6-Hgk" kind="relationship" relationship="viewControllers" id="LDF-VI-kKK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="udo-Gj-RDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -623,9 +624,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TbR-ov-i8Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381" y="-1951"/>
+            <point key="canvasLocation" x="2381" y="-2303"/>
         </scene>
-        <!--Recruiter Resume Table View Controller-->
+        <!--Matches-->
         <scene sceneID="WFy-04-mYd">
             <objects>
                 <tableViewController id="imx-b3-Fgs" customClass="RecruiterResumeTableViewController" sceneMemberID="viewController">
@@ -633,8 +634,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="scrollIndicatorInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Q97-ao-E9q">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="likeCell" id="Q97-ao-E9q">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q97-ao-E9q" id="8Ro-xk-YjR">
@@ -648,10 +650,11 @@
                             <outlet property="delegate" destination="imx-b3-Fgs" id="Efk-kG-ab2"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Matches" image="star1" id="j3k-Ai-4OH"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PiA-Sf-2nx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3205" y="-2162"/>
+            <point key="canvasLocation" x="2381" y="-1414"/>
         </scene>
         <!--Resumes-->
         <scene sceneID="DwL-h7-eDU">
@@ -678,7 +681,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9e0-Jz-wye" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381" y="-2609"/>
+            <point key="canvasLocation" x="2381" y="-2981"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="36L-mW-KSq">
@@ -691,8 +694,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="8aU-wy-L0T" kind="relationship" relationship="viewControllers" id="U9t-NO-6zC"/>
-                        <segue destination="1nP-Bx-dbe" kind="relationship" relationship="viewControllers" id="P7O-zj-fjm"/>
                         <segue destination="sBS-QJ-fFO" kind="relationship" relationship="viewControllers" id="XOt-SF-0zm"/>
+                        <segue destination="imx-b3-Fgs" kind="relationship" relationship="viewControllers" id="Iod-Hc-piQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v4e-Ql-NHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -706,7 +709,7 @@
         <image name="star1" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8c9-F9-Vk5"/>
+        <segue reference="Qoj-Zc-sXx"/>
         <segue reference="0MU-1k-CI9"/>
     </inferredMetricsTieBreakers>
 </document>
