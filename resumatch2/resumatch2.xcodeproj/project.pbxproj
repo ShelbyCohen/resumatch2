@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040303A31CD69A1B00845AB8 /* resumatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 040303A21CD69A1B00845AB8 /* resumatch.png */; };
+		040303AE1CD6A37F00845AB8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 040303AA1CD6A37F00845AB8 /* images */; };
+		040303B61CD6A83900845AB8 /* oldMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040303B51CD6A83900845AB8 /* oldMain.storyboard */; };
 		049447761CAEBE04005A684D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049447751CAEBE04005A684D /* LoginViewController.m */; };
 		049447791CAEC041005A684D /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049447781CAEC041005A684D /* SignUpViewController.m */; };
 		0494477C1CB3421F005A684D /* RecruiterInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494477B1CB3421F005A684D /* RecruiterInitialViewController.m */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040303A21CD69A1B00845AB8 /* resumatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resumatch.png; sourceTree = "<group>"; };
+		040303AA1CD6A37F00845AB8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		040303B51CD6A83900845AB8 /* oldMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = oldMain.storyboard; sourceTree = "<group>"; };
 		049447741CAEBE04005A684D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		049447751CAEBE04005A684D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		049447771CAEC041005A684D /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 				04CCB4471C8E39AC00D336EC /* ViewController.h */,
 				04CCB4481C8E39AC00D336EC /* ViewController.m */,
 				04CCB44A1C8E39AC00D336EC /* Main.storyboard */,
+				040303B51CD6A83900845AB8 /* oldMain.storyboard */,
+				040303AA1CD6A37F00845AB8 /* images */,
+				040303A21CD69A1B00845AB8 /* resumatch.png */,
 				049447801CB439F9005A684D /* RecruiterLoginViewController.h */,
 				049447811CB439F9005A684D /* RecruiterLoginViewController.m */,
 				049447831CB43A08005A684D /* ApplicantLoginViewController.h */,
@@ -283,7 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040303AE1CD6A37F00845AB8 /* images in Resources */,
+				040303A31CD69A1B00845AB8 /* resumatch.png in Resources */,
 				04CCB4511C8E39AC00D336EC /* LaunchScreen.storyboard in Resources */,
+				040303B61CD6A83900845AB8 /* oldMain.storyboard in Resources */,
 				04CCB44E1C8E39AC00D336EC /* Assets.xcassets in Resources */,
 				04CCB44C1C8E39AC00D336EC /* Main.storyboard in Resources */,
 			);

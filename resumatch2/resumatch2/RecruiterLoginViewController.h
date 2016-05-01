@@ -10,5 +10,6 @@
 
 @interface RecruiterLoginViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *loginRecruiterViewButton;
+@property (weak, nonatomic) IBOutlet UIButton *loginRecruiterCancelButton;
 
 @end

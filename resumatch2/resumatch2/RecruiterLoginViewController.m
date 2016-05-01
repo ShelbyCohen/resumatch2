@@ -22,6 +22,13 @@
     _loginRecruiterViewButton.layer.cornerRadius = 10;
     _loginRecruiterViewButton.layer.masksToBounds = YES;
     _loginRecruiterViewButton.layer.borderWidth = 3.0f;
+    
+    [_loginRecruiterCancelButton setTitle:@"Login" forState:UIControlStateNormal];
+    _loginRecruiterCancelButton.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
+    _loginRecruiterCancelButton.layer.backgroundColor = [UIColor whiteColor].CGColor;
+    _loginRecruiterCancelButton.layer.cornerRadius = 10;
+    _loginRecruiterCancelButton.layer.masksToBounds = YES;
+    _loginRecruiterCancelButton.layer.borderWidth = 3.0f;
 }
 
 - (void)didReceiveMemoryWarning {

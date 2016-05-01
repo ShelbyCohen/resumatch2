@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SignUpViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *recruiterButton;
+@property (weak, nonatomic) IBOutlet UIButton *applicantButton;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
 
 @end
