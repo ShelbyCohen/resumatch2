@@ -10,6 +10,6 @@
 
 @interface RecruiterResumeTableViewController : UITableViewController
 
-@property (nonatomic,strong) NSArray *colors;
+@property (nonatomic,strong) NSArray *resumes;
 
 @end

@@ -10,6 +10,6 @@
 
 @interface ApplicantResumeTableViewController : UITableViewController
 
-@property (nonatomic,strong) NSArray *cities;
+@property (nonatomic,strong) NSArray *companies;
 
 @end

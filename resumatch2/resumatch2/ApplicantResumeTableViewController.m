@@ -13,13 +13,12 @@
 @end
 
 @implementation ApplicantResumeTableViewController
-@synthesize cities;
+@synthesize companies;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //self.cities= [[NSArray alloc] initWithObjects: @"Red", @"Yellow", @"Green", @"Blue", @"Purple", nil];
-    
-    self.cities= [[NSArray alloc] initWithObjects: @"NYC", @"LA", @"Chicago",@"Miami", @"Austin", @"Las Vegas", nil];
+   
+    self.companies= [[NSArray alloc] initWithObjects: @"Google", @"Amazon", @"Facebook", @"Twitter",nil];
     
     self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
@@ -44,7 +43,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 //#warning Incomplete implementation, return the number of rows
-    return [self.cities count];
+    return [self.companies count];
 }
 
 
@@ -54,7 +53,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"likeAppCell" forIndexPath:indexPath];
     
-    cell.textLabel.text=[self.cities objectAtIndex:indexPath.row];
+    cell.textLabel.text=[self.companies objectAtIndex:indexPath.row];
     
     return cell;
 }

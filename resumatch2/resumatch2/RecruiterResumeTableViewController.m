@@ -13,14 +13,14 @@
 @end
 
 @implementation RecruiterResumeTableViewController
-@synthesize colors;
+@synthesize resumes;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
     
-    self.colors= [[NSArray alloc] initWithObjects: @"Red", @"Yellow", @"Green", @"Blue", @"Purple", nil];
+    self.resumes= [[NSArray alloc] initWithObjects: @"Lily Miller", @"Bryan Clark", @"Jamie Smith", @"Samuel Evans", nil];
     
     self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
@@ -45,7 +45,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 //#warning Incomplete implementation, return the number of rows
-    return [self.colors count];
+    return [self.resumes count];
 }
 
 
@@ -55,7 +55,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"likeCell" forIndexPath:indexPath];
     
-    cell.textLabel.text=[self.colors objectAtIndex:indexPath.row];
+    cell.textLabel.text=[self.resumes objectAtIndex:indexPath.row];
     
     return cell;
 }
