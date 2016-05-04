@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fD7-iK-0xk">
-                                <rect key="frame" x="226" y="325" width="148" height="50"/>
+                                <rect key="frame" x="226" y="276" width="148" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="148" id="CSw-yi-zRi"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Wpb-Hr-Q0P"/>
@@ -34,16 +34,16 @@
                                     <segue destination="HOv-rR-p21" kind="show" id="vfA-uF-PBu"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resumatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="5ua-mV-fiP">
-                                <rect key="frame" x="146" y="20" width="309" height="256"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="resumatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="5ua-mV-fiP">
+                                <rect key="frame" x="111" y="20" width="380" height="207"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="309" id="0y0-tq-qVE"/>
+                                    <constraint firstAttribute="width" constant="380" id="0y0-tq-qVE"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="309" id="Caa-yC-srQ"/>
                                     <constraint firstAttribute="height" constant="256" id="rIb-4C-VJs"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luv-ru-eZ0">
-                                <rect key="frame" x="226" y="383" width="148" height="50"/>
+                                <rect key="frame" x="226" y="334" width="148" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="148" id="3vW-r8-Cih"/>
                                     <constraint firstAttribute="height" constant="50" id="f8a-ql-DA7"/>
@@ -229,7 +229,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="136" id="GmC-9c-gVa"/>
                                 </constraints>
-                                <state key="normal" title="Cancel"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="sEc-4y-cKy" kind="show" id="uDP-SR-MJy"/>
                                 </connections>
@@ -268,6 +268,9 @@
                                     <constraint firstAttribute="width" constant="147" id="IJ3-31-ya6"/>
                                 </constraints>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="qly-Gk-UQ8" kind="showDetail" id="GzB-ld-7z8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -379,7 +382,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="uMc-3P-swM"/>
                                 </constraints>
-                                <state key="normal" title="Cancel"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="sEc-4y-cKy" kind="show" id="zYr-Ox-ebQ"/>
                                 </connections>
@@ -413,8 +416,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZA-z2-tTb">
-                                <rect key="frame" x="273" y="479" width="55" height="30"/>
-                                <state key="normal" title="Sign Up"/>
+                                <rect key="frame" x="276" y="479" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
                                 <connections>
                                     <segue destination="LXS-3l-Pry" kind="showDetail" id="1Jp-Er-pg4"/>
                                 </connections>
@@ -486,10 +489,6 @@
                                     <constraint firstAttribute="width" constant="188" id="zUv-a2-bib"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
                                 <connections>
                                     <segue destination="YnE-wc-z34" kind="show" id="xeU-Ex-RXV"/>
                                 </connections>
@@ -736,13 +735,13 @@
                                 <state key="normal" title="Upload New Resume"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KateJohnson.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Oq-b1-LTD">
-                                <rect key="frame" x="87" y="57" width="427" height="448"/>
+                                <rect key="frame" x="54" y="57" width="493" height="448"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="S27-Fg-d6T" firstAttribute="centerX" secondItem="0Oq-b1-LTD" secondAttribute="centerX" id="56l-f1-gfR"/>
-                            <constraint firstItem="0Oq-b1-LTD" firstAttribute="leading" secondItem="fp9-2L-3RI" secondAttribute="leadingMargin" constant="67" id="E9k-fI-eMZ"/>
+                            <constraint firstItem="0Oq-b1-LTD" firstAttribute="leading" secondItem="fp9-2L-3RI" secondAttribute="leadingMargin" constant="34" id="E9k-fI-eMZ"/>
                             <constraint firstItem="Jyh-Se-lxV" firstAttribute="centerX" secondItem="0Oq-b1-LTD" secondAttribute="centerX" id="Ei4-yu-nxI"/>
                             <constraint firstItem="Jyh-Se-lxV" firstAttribute="top" secondItem="0Oq-b1-LTD" secondAttribute="bottom" constant="16" id="MOb-9I-RUj"/>
                             <constraint firstItem="S27-Fg-d6T" firstAttribute="top" secondItem="AcE-kn-UYy" secondAttribute="bottom" constant="8" symbolic="YES" id="OAg-Yc-3fo"/>
@@ -1032,9 +1031,10 @@
         <image name="thumbsUp.jpg" width="1280" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8c9-F9-Vk5"/>
-        <segue reference="zYr-Ox-ebQ"/>
+        <segue reference="uDP-SR-MJy"/>
+        <segue reference="GzB-ld-7z8"/>
         <segue reference="1Jp-Er-pg4"/>
-        <segue reference="G3s-cw-JKa"/>
+        <segue reference="vfA-uF-PBu"/>
+        <segue reference="Yio-te-mlX"/>
     </inferredMetricsTieBreakers>
 </document>

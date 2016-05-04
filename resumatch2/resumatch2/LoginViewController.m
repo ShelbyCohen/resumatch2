@@ -31,7 +31,7 @@
     _loginApplicantButton.layer.masksToBounds = YES;
     _loginApplicantButton.layer.borderWidth = 3.0f;
     
-    [_cancelLoginRecApp setTitle:@"Cancel" forState:UIControlStateNormal];
+    [_cancelLoginRecApp setTitle:@"Back" forState:UIControlStateNormal];
     _cancelLoginRecApp.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     _cancelLoginRecApp.layer.backgroundColor = [UIColor whiteColor].CGColor;
     _cancelLoginRecApp.layer.cornerRadius = 10;
