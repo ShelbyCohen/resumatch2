@@ -26,6 +26,10 @@
 		04CCB4671C8E39AC00D336EC /* resumatch2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCB4661C8E39AC00D336EC /* resumatch2UITests.m */; };
 		04D73DD41CC9786900C9248F /* RecruiterResumeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73DD31CC9786900C9248F /* RecruiterResumeTableViewController.m */; };
 		04D73DD71CC9787E00C9248F /* ApplicantResumeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73DD61CC9787E00C9248F /* ApplicantResumeTableViewController.m */; };
+		6DCD7D811CD977020045C798 /* RecruiterResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCD7D801CD977020045C798 /* RecruiterResumeViewController.m */; };
+		6DCD7D831CD980190045C798 /* samuelEvans.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCD7D821CD980190045C798 /* samuelEvans.png */; };
+		6DCD7D861CD982820045C798 /* thumbsDown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DCD7D841CD982820045C798 /* thumbsDown.jpg */; };
+		6DCD7D871CD982820045C798 /* thumbsUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DCD7D851CD982820045C798 /* thumbsUp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,11 @@
 		04D73DD31CC9786900C9248F /* RecruiterResumeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruiterResumeTableViewController.m; sourceTree = "<group>"; };
 		04D73DD51CC9787E00C9248F /* ApplicantResumeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicantResumeTableViewController.h; sourceTree = "<group>"; };
 		04D73DD61CC9787E00C9248F /* ApplicantResumeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicantResumeTableViewController.m; sourceTree = "<group>"; };
+		6DCD7D7F1CD977020045C798 /* RecruiterResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecruiterResumeViewController.h; sourceTree = "<group>"; };
+		6DCD7D801CD977020045C798 /* RecruiterResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruiterResumeViewController.m; sourceTree = "<group>"; };
+		6DCD7D821CD980190045C798 /* samuelEvans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samuelEvans.png; sourceTree = "<group>"; };
+		6DCD7D841CD982820045C798 /* thumbsDown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbsDown.jpg; sourceTree = "<group>"; };
+		6DCD7D851CD982820045C798 /* thumbsUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbsUp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +140,16 @@
 		04CCB4401C8E39AC00D336EC /* resumatch2 */ = {
 			isa = PBXGroup;
 			children = (
+				6DCD7D841CD982820045C798 /* thumbsDown.jpg */,
+				6DCD7D851CD982820045C798 /* thumbsUp.jpg */,
+				6DCD7D821CD980190045C798 /* samuelEvans.png */,
 				04CCB4441C8E39AC00D336EC /* AppDelegate.h */,
 				04CCB4451C8E39AC00D336EC /* AppDelegate.m */,
 				04CCB4471C8E39AC00D336EC /* ViewController.h */,
 				04CCB4481C8E39AC00D336EC /* ViewController.m */,
 				04CCB44A1C8E39AC00D336EC /* Main.storyboard */,
+				6DCD7D7F1CD977020045C798 /* RecruiterResumeViewController.h */,
+				6DCD7D801CD977020045C798 /* RecruiterResumeViewController.m */,
 				040303B51CD6A83900845AB8 /* oldMain.storyboard */,
 				040303AA1CD6A37F00845AB8 /* images */,
 				040303A21CD69A1B00845AB8 /* resumatch.png */,
@@ -292,10 +306,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DCD7D861CD982820045C798 /* thumbsDown.jpg in Resources */,
 				040303AE1CD6A37F00845AB8 /* images in Resources */,
 				040303A31CD69A1B00845AB8 /* resumatch.png in Resources */,
+				6DCD7D871CD982820045C798 /* thumbsUp.jpg in Resources */,
 				04CCB4511C8E39AC00D336EC /* LaunchScreen.storyboard in Resources */,
 				040303B61CD6A83900845AB8 /* oldMain.storyboard in Resources */,
+				6DCD7D831CD980190045C798 /* samuelEvans.png in Resources */,
 				04CCB44E1C8E39AC00D336EC /* Assets.xcassets in Resources */,
 				04CCB44C1C8E39AC00D336EC /* Main.storyboard in Resources */,
 			);
@@ -325,6 +342,7 @@
 				0494477C1CB3421F005A684D /* RecruiterInitialViewController.m in Sources */,
 				049447761CAEBE04005A684D /* LoginViewController.m in Sources */,
 				0494477F1CB3429A005A684D /* ApplicantInitialViewController.m in Sources */,
+				6DCD7D811CD977020045C798 /* RecruiterResumeViewController.m in Sources */,
 				049447791CAEC041005A684D /* SignUpViewController.m in Sources */,
 				04CCB4491C8E39AC00D336EC /* ViewController.m in Sources */,
 				049447851CB43A08005A684D /* ApplicantLoginViewController.m in Sources */,

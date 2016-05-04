@@ -649,7 +649,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter Matches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJB-DY-7lh">
                                 <rect key="frame" x="181" y="213" width="140" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -659,7 +659,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7V-GE-LtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1655" y="-1238"/>
+            <point key="canvasLocation" x="3465" y="-1771"/>
         </scene>
         <!--Resume-->
         <scene sceneID="aU1-5C-gBw">
@@ -676,7 +676,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Applicant Current Resume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S27-Fg-d6T">
                                 <rect key="frame" x="200" y="28" width="201" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Oq-b1-LTD">
@@ -706,7 +706,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Applicant Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHO-g4-YyU">
                                 <rect key="frame" x="201" y="232" width="140" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKi-lC-jq1">
@@ -738,7 +738,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KQI-yw-uR0" id="oes-NP-ydX">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -769,7 +769,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Applicant Matches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRd-rV-TEK">
                                 <rect key="frame" x="178" y="233" width="143" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -815,7 +815,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGA-el-nSR">
                                 <rect key="frame" x="265" y="220" width="137" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJV-NC-1Ya">
@@ -848,7 +848,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q97-ao-E9q" id="8Ro-xk-YjR">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -867,7 +867,7 @@
         <!--Resumes-->
         <scene sceneID="DwL-h7-eDU">
             <objects>
-                <viewController id="sBS-QJ-fFO" sceneMemberID="viewController">
+                <viewController id="sBS-QJ-fFO" customClass="RecruiterResumeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DaB-UU-AwW"/>
                         <viewControllerLayoutGuide type="bottom" id="Tmt-nR-IQ0"/>
@@ -876,14 +876,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recruiter resumes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRx-B9-LaS">
-                                <rect key="frame" x="141" y="195" width="140" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recruiter resumes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRx-B9-LaS">
+                                <rect key="frame" x="230" y="20" width="140" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="uWs-6y-X6p"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="samuelEvans.png" translatesAutoresizingMaskIntoConstraints="NO" id="AyN-eQ-CsP">
+                                <rect key="frame" x="125" y="57" width="351" height="455"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="351" id="sw3-gc-v0s"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHj-eD-5tt">
+                                <rect key="frame" x="426" y="509" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="eF5-sv-I6B"/>
+                                    <constraint firstAttribute="height" constant="50" id="jFp-BJ-uvS"/>
+                                </constraints>
+                                <state key="normal" image="thumbsUp.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtL-sM-SZz">
+                                <rect key="frame" x="125" y="509" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HIe-95-4Ek"/>
+                                    <constraint firstAttribute="width" constant="80" id="lE3-zM-TKX"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="thumbsDown.jpg"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AyN-eQ-CsP" firstAttribute="top" secondItem="HRx-B9-LaS" secondAttribute="bottom" constant="16" id="MMh-CZ-lFm"/>
+                            <constraint firstItem="HRx-B9-LaS" firstAttribute="centerX" secondItem="yLW-2f-E3E" secondAttribute="centerX" id="Pw7-zO-9Y8"/>
+                            <constraint firstItem="HRx-B9-LaS" firstAttribute="top" secondItem="DaB-UU-AwW" secondAttribute="bottom" id="Rgi-0h-aS3"/>
+                            <constraint firstItem="UHj-eD-5tt" firstAttribute="bottom" secondItem="qtL-sM-SZz" secondAttribute="bottom" id="Xo6-cS-4vq"/>
+                            <constraint firstItem="HRx-B9-LaS" firstAttribute="centerX" secondItem="AyN-eQ-CsP" secondAttribute="centerX" id="Yfz-iR-xEa"/>
+                            <constraint firstItem="UHj-eD-5tt" firstAttribute="top" secondItem="qtL-sM-SZz" secondAttribute="top" id="hNp-Wc-rRr"/>
+                            <constraint firstItem="Tmt-nR-IQ0" firstAttribute="top" secondItem="AyN-eQ-CsP" secondAttribute="bottom" constant="88" id="qIj-pt-dfA"/>
+                            <constraint firstItem="qtL-sM-SZz" firstAttribute="leading" secondItem="AyN-eQ-CsP" secondAttribute="leading" id="qJ8-vs-MGg"/>
+                            <constraint firstItem="Tmt-nR-IQ0" firstAttribute="top" secondItem="qtL-sM-SZz" secondAttribute="bottom" constant="30" id="wSR-9D-mBB"/>
+                            <constraint firstItem="AyN-eQ-CsP" firstAttribute="trailing" secondItem="UHj-eD-5tt" secondAttribute="trailing" id="xDE-bb-fhk"/>
+                            <constraint firstItem="qtL-sM-SZz" firstAttribute="top" secondItem="DaB-UU-AwW" secondAttribute="bottom" constant="461" id="yXH-XX-XTp"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Resumes" image="paper" id="VEV-r7-ksU" userLabel="Resume"/>
                 </viewController>
@@ -915,11 +953,14 @@
         <image name="gear" width="30" height="30"/>
         <image name="paper" width="30" height="30"/>
         <image name="resumatch.png" width="852" height="760"/>
+        <image name="samuelEvans.png" width="755" height="977"/>
         <image name="star1" width="30" height="30"/>
+        <image name="thumbsDown.jpg" width="1280" height="1024"/>
+        <image name="thumbsUp.jpg" width="1280" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Qoj-Zc-sXx"/>
+        <segue reference="G3s-cw-JKa"/>
         <segue reference="uDP-SR-MJy"/>
-        <segue reference="AVC-2Y-v7W"/>
     </inferredMetricsTieBreakers>
 </document>
